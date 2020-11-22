@@ -1,7 +1,6 @@
-<pre>
 ===========================================================================
 			<h1>AVR C BLINK PROJECT on STK500</h1> 
-===========================================================================</pre>
+===========================================================================
 <p>
 This example project blinks two LEDs of PORTD with a dealy of 1000ms. In order
 to correctly build this projject on STK500 Board:
@@ -13,7 +12,7 @@ to correctly build this projject on STK500 Board:
 </ol>
 </p>
 
-<p><h3>Note:</h3>You might want to callibrate the internal clock. Go to Fuse, LOWSUT_CKSEL
+<p><b>Note:</b>You might want to callibrate the internal clock. Go to Fuse, LOWSUT_CKSEL
 	         Select the appropriate clock. In my case I set it to 4MHz, both in the fuse
 		 As well as in the #define F_CPU 4000000UL. (UL means Unsigned Long).			
 </p>
