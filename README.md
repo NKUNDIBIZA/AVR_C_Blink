@@ -1,7 +1,7 @@
 <pre>
 ===========================================================================
 			<h1>AVR C BLINK PROJECT on STK500</h1> 
-===========================================================================
+===========================================================================</pre>
 <p>
 This example project blinks two LEDs of PORTD with a dealy of 1000ms. In order
 to correctly build this projject on STK500 Board:
@@ -18,4 +18,3 @@ to correctly build this projject on STK500 Board:
 		 As well as in the #define F_CPU 4000000UL. (UL means Unsigned Long).			
 </p>
 
-</pre>
