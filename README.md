@@ -2,7 +2,7 @@
 <pre>			<h1>AVR C BLINK PROJECT on STK500</h1></pre> 
 <p>
 This example project blinks two LEDs of PORTD with a dealy of 1000ms. In order
-to correctly build this projject on STK500 Board:
+to correctly build this project on STK500 Board:
 <ol>
 <li>Tools->add Target chose the appropriate COM port</li>
 <li>Too->Device programming</li>
