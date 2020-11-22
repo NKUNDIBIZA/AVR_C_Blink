@@ -11,7 +11,7 @@ to correctly build this project on STK500 Board:
 </ol>
 </p>
 
-<p><b>Note:</b>You might want to callibrate the internal clock. Go to Fuse, LOWSUT_CKSEL
+<p><b>Note:</b> You might want to callibrate the internal clock. Go to Fuse, LOWSUT_CKSEL
 	         Select the appropriate clock. In my case I set it to 4MHz, both in the fuse
 		 As well as in the #define F_CPU 4000000UL. (UL means Unsigned Long).			
 </p>
